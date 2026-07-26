@@ -119,7 +119,7 @@ The first row also surfaced a real limitation of the naive retrieval approach: w
 ## Tech stack
 
 - **AWS**: S3, Lambda, SQS, DynamoDB, IAM — all serverless, all Always-Free-tier-eligible except S3
-- **Local inference**: [Ollama](https://ollama.com/), running `nomic-embed-text` (embeddings) and `llama3.1:8b` (generation) on an RTX 5060
+- **Local inference**: [Ollama](https://ollama.com/), running `nomic-embed-text` (embeddings) and `llama3.1:8b` (generation)
 - **Evaluation**: [RAGAS](https://github.com/explodinggradients/ragas), configured for a local, OpenAI-API-compatible judge
 - **Language**: Python 3 (worker + evaluation scripts), Python 3.13 (Lambda runtime)
 - **Libraries**: `boto3`, `requests`, `ragas`, `openai` (client only, pointed at a local endpoint)
