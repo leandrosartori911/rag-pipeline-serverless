@@ -34,7 +34,7 @@ Every architectural decision below is a direct consequence of one of these three
                                                        ┌───────────────────────────┐
                                                        │   Local Worker (Python)    │
                                                        │   running on home GPU      │
-                                                       │   (RTX 5060)               │
+                                                       │                            │
                                                        │                            │
                                                        │  → Ollama: nomic-embed-text│
                                                        │  → Ollama: llama3.1:8b     │
