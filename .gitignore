@@ -1,0 +1,11 @@
+.env
+*.csv
+
+__pycache__/
+*.pyc
+ragas-env/
+venv/
+*.egg-info/
+
+*.txt
+!requirements.txt
